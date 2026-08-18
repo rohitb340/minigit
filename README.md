@@ -145,3 +145,7 @@ The racy index problem was found the same way, by a test rather than the fuzzer:
 Structural diffing and semantic merging are not new. [difftastic](https://difftastic.wilfred.me.uk/) does structural diffs today, GumTree is the academic AST diffing algorithm, and Plastic SCM shipped a commercial semantic merge. Reimplementing git is also well trodden ground.
 
 The accurate claim is not that nobody thought of this. It is that **git does not do it, and this does**, and that every compatibility claim here can be verified in one command.
+
+---
+
+The commit that added this line was created by minigit itself, not by git.
